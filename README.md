@@ -1,2 +1,7 @@
-Objetivo
-Implementar um interpretador interativo (REPL – Read-Eval-Print Loop) em C, para uma máquina virtual que utiliza estrutura de pilha.
+INTEGRANTES DO GRUPO:
+
+> CARLOS EDUARDO PEREIRA DE SOUSA
+> CHRISTIANO DE SOUSA BRANDAO
+> ELIZABETH SANTOS PENHA
+> MARIANA BOGEA LIMA
+> SAMUEL DE MORAES OLIVEIRA
