@@ -6,8 +6,8 @@
 #include "stack.h"
 #include "list.h"
 
-Stack *s = NULL;
-List *l = NULL;
+stack *s = NULL;
+list *l = NULL;
 
 void s_init(){
     s = new_stack(100);
