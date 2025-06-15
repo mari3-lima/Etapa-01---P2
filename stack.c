@@ -1,11 +1,34 @@
-#ifndef stack_h
-#define stack_h
+#include<stdlib.h>
+#include<stdio.h>
+#include "stack.h"
 
-typedef struct stack stack;
 
-stack* new_stack(int size);
-void stack_push(Stack* s, int value);
-int stack_pop (Stack* s);
-void stack_print(Stack* s);
+struct stack
+{
+    int top;
+    int *values;
+};
 
-#endif
+
+Stack* new_stack(int size){
+    Stack *s = calloc(1,sizeof(Stack));
+    s->values = calloc(size, sizeof(int));
+    s->top = 0;
+    return s;
+}
+
+void stack_push(Stack* s, int value){
+    s->values[s->top++] = value;
+}
+
+int stack_pop (Stack* s){
+    return s->values[--s->top];
+}
+
+void stack_print(Stack* s){
+    printf("============ STACK ===========\n");
+    for(int i = s->top - 1; i >= 0; i--){
+        printf("%d\n", s->values[i]);
+    }
+    printf("============ STACK ===========\n");
+}
