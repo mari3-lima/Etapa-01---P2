@@ -1,11 +1,15 @@
 #ifndef stack_h
 #define stack_h
 
-typedef struct stack Stack;
+typedef struct stack {
+    int top;
+    int size;
+    int *values;
+} Stack;
 
 Stack* new_stack(int size);
 void stack_push(Stack* s, int value);
-int stack_pop (Stack* s);
+int stack_pop(Stack* s);
 void stack_print(Stack* s);
 
 #endif
