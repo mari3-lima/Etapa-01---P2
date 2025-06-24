@@ -64,6 +64,6 @@ README.md
 -------------------------------
 Descrição da nova funcionalidade (variáveis):
 Ampliar a funcionalidade do interpretador da máquina virtual baseado em pilha, implementando uma memória de variáveis usando uma lista encadeada. Esta etapa introduz o uso de variáveis nomeadas e operações entre elas.
-push: Insere um elemento no topo da pilha
-pop:Remove o último elemento inserido (do topo)
+adição de list: utilizando o node para apontar pro começo da pilha, além de utilizar o append, get, set e exist; como dito no video para um maior uso de funções
+pop:Remove o último elemento inserido (do topo) para abrir espaço na pilha
 ===============================
