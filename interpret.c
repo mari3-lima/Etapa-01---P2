@@ -7,6 +7,7 @@
 #include "stack.h"
 #include "list.h"
 
+//Definição das variáveis globais
 Stack *s = NULL;
 List *l = NULL;
 
