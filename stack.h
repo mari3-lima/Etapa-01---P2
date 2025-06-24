@@ -1,7 +1,7 @@
 #ifndef stack_h
 #define stack_h
 
-typedef struct stack Stack {
+typedef struct stack {
     int top;
     int size;
     int *values;
